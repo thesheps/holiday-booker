@@ -20,7 +20,7 @@ namespace HolidayBooker.Core.Tests
     {
         public IList<Date> GetDates()
         {
-            throw new NotImplementedException();
+            return new List<Date> { new Date() };
         }
     }
 
