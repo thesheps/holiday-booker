@@ -1,13 +1,30 @@
-﻿using NUnit.Framework;
+﻿using System;
+using System.Collections.Generic;
+using NUnit.Framework;
 
 namespace HolidayBooker.Core.Tests
 {
     public class GivenBookingCalendar
     {
         [Test]
-        public void WhenIRetrieveAvailableDate_ThenDatesAreRetrieved()
+        public void WhenIRetrieveAvailableDates_ThenDatesAreRetrieved()
         {
-            Assert.True(1 == 2);
+            var calendar = new BookingCalendar();
+            var dates = calendar.GetDates();
+
+            Assert.That(dates, Is.Not.Empty);
         }
+    }
+
+    public class BookingCalendar
+    {
+        public IList<Date> GetDates()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class Date
+    {
     }
 }

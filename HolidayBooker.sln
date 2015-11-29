@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{9F7897
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2B4226BE-0F1D-4E92-BB07-7641DCF598AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayBooker.Core.Tests", "tests\HolidayBooker.Core.Tests\HolidayBooker.Core.Tests.csproj", "{104A2117-38AA-45E0-8DD5-0489577862CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,16 @@ Global
 		{283A724B-9779-48B5-8568-914BB254475D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{283A724B-9779-48B5-8568-914BB254475D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{283A724B-9779-48B5-8568-914BB254475D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104A2117-38AA-45E0-8DD5-0489577862CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104A2117-38AA-45E0-8DD5-0489577862CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104A2117-38AA-45E0-8DD5-0489577862CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104A2117-38AA-45E0-8DD5-0489577862CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{283A724B-9779-48B5-8568-914BB254475D} = {9F78976C-32C6-41E3-9735-78783564FDC5}
+		{104A2117-38AA-45E0-8DD5-0489577862CF} = {2B4226BE-0F1D-4E92-BB07-7641DCF598AB}
 	EndGlobalSection
 EndGlobal
